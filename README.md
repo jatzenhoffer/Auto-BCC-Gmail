@@ -10,7 +10,7 @@ Are you required to log emails to a CRM, such as Salesforce? Do you want to make
 This extension is not on the Chrome Web Store and must be installed manually. Follow these steps carefully.
 
 **Step 1: Prepare the Files**
- 1. Download the Folder gmail-auto-bcc. Put it somewhere safe where you won’t accidentally delete it.
+ 1. Download the Folder gmail-auto-bcc. Click the green Code button on the top right of this Readme, and download as Zip. Unzip it. Put it somewhere safe where you won’t accidentally delete it.
  2. Confirm your folder structure looks like this:
 ```
 gmail-auto-bcc/
