@@ -12,6 +12,7 @@ This extension is not on the Chrome Web Store and must be installed manually. Fo
 **Step 1: Prepare the Files**
  1. Download the Folder gmail-auto-bcc. Put it somewhere safe where you won’t accidentally delete it.
  2. Confirm your folder structure looks like this:
+```
 gmail-auto-bcc/
 ├── images/
 │   ├── icon16.png
@@ -21,6 +22,7 @@ gmail-auto-bcc/
 ├── options.html
 ├── options.js
 └── content.js
+```
 
 **Step 2: Install in Chrome**
 1. Open the Google Chrome browser.
