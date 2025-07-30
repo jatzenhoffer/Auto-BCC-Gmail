@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Auto BCC Settings</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="max-w-md w-full bg-white p-8 rounded-xl shadow-lg">
+            <div class="text-center">
+                <h1 class="text-2xl font-bold text-gray-800">Gmail Auto BCC Settings</h1>
+                <p class="mt-2 text-gray-600">Set the email address to be automatically added to the BCC field.</p>
+            </div>
+            <div class="mt-8">
+                <div>
+                    <label for="bcc-email" class="text-sm font-medium text-gray-700">BCC Email Address</label>
+                    <input type="email" id="bcc-email" placeholder="e.g., archive@mycompany.com" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                </div>
+                <div class="mt-6">
+                    <button id="save-button" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        Save
+                    </button>
+                </div>
+                <div id="status" class="mt-4 text-center text-sm font-medium"></div>
+            </div>
+        </div>
+    </div>
+    <script src="options.js"></script>
+</body>
+</html>
