@@ -37,7 +37,7 @@ gmail-auto-bcc/
 2. Copy the email address that starts with “emailtosalesforce@”
 3. Find the "Gmail Auto BCC" extension in your extensions list (chrome://extensions).
 4. Click on the "Details" button.
-5 Scroll down and click on "Extension options".
+5. Scroll down and click on "Extension options".
 6. This will open the settings page. Paste your Salesforce logging email address and click Save.
 7. You can also access the options by finding the extension's icon (Tree Icon) in your Chrome toolbar (you may need to click the puzzle piece icon), right-clicking it, and selecting "Options".
    
